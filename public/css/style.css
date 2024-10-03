@@ -1,0 +1,62 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container-fluid {
+    height: 100vh;
+    background-image: url("/images/background-home-desktop.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+#container-main {
+    padding: 0;
+}
+
+#nav-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 5.5rem;
+    height: 96px;
+    
+}
+#nav-menu > ul {
+    display: flex;
+    align-items: center;
+    
+    list-style-type: none;
+    height: 96px;
+    background: rgba(0, 0, 0, 0.6); /* Fundo preto semi-transparente para o efeito escuro */
+    backdrop-filter: blur(10px); /* Aplica o desfoque ao fundo */
+    background-color: rgba(213, 213, 228, 0.1);
+    
+}
+
+#nav-menu ul li {
+    color: #ffffff;
+    font-size: 16px;
+    padding: 35px;
+}
+#nav-menu ul li:first-child {
+    padding-left: 8rem;
+}
+#nav-menu ul li:last-child {
+    padding-right: 8rem;
+}
+
+#nav-menu img {
+    padding-left: 4rem;
+}
+hr {
+    background-color: #ffffff;
+                     /* Remove o estilo padrão da linha */
+    height: 1px;                   /* Define a altura (espessura) da linha */
+    width: 45%;                    /* Define a largura da linha */
+    margin: 20px auto;              /* Centraliza a linha horizontalmente */
+    position: absolute;
+    left: 11.5rem;
+    z-index: 1000;
+}
